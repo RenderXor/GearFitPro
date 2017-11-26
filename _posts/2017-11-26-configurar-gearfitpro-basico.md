@@ -2,6 +2,7 @@
 layout: post
 title:  "Configurar Gear Fit Pro"
 date:   2017-11-26 17:15:51 +0100
+categories: gearfitpro
 ---
 
 ## Empecemos a configurar nuestro Gear Fit
