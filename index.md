@@ -1,6 +1,5 @@
 ---
 title: Principal
-layout : default
+layout : home
 ---
 
-Hola mundo!!!
