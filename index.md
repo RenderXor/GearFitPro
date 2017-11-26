@@ -1,5 +1,5 @@
 ---
 title: Principal
-layout : default
+layout : home
 ---
 
