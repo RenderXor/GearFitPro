@@ -25,7 +25,7 @@
 	<ul>
 	  {% for p in site.pages %}
 	     <li>
-		{% if p.title != "" %}
+		{% if p.title %}
 		  <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
 		{% endif %}
 	     </li>
