@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-	{% if previsualiza %}
+	{% if site.data.global.previsualizar %}
 		{{ post.excerpt }}
 	{% endif %}
     </li>
