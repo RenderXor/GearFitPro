@@ -5,7 +5,7 @@ url: "https://renderxor.hithub.io/gearfitpro"
 baseurl: "gearfitpro"
 show_downloads: false
 
-post.pre: true
+previsualiza: true
 
 markdown: kramdown
 
