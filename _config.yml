@@ -5,6 +5,8 @@ url: "https://renderxor.hithub.io/gearfitpro"
 baseurl: "gearfitpro"
 show_downloads: false
 
+post.pre: false
+
 markdown: kramdown
 
 theme: jekyll-theme-modernist
