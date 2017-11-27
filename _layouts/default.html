@@ -24,11 +24,11 @@
         {% endif %}
 	<ul>
 	  {% for p in site.pages %}
-	     <li>
 		{% if p.title %}
-		  <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+		  	<li>
+			<a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+			</li>
 		{% endif %}
-	     </li>
 	  {% endfor %}
 	</ul>
       </header>
