@@ -5,6 +5,8 @@ url: "https://renderxor.github.io/gearfitpro"
 baseurl: "gearfitpro"
 show_downloads: false
 
+twitter_username: RenderXor
+
 previsualiza: true
 
 markdown: kramdown
