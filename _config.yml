@@ -3,6 +3,8 @@ description: Resucita tu Gear Fit
 github_username: RenderXor
 url: "https://renderxor.hithub.io/gearfitpro"
 baseurl: "gearfitpro"
+show_downloads: false
+
 markdown: kramdown
 
 theme: jekyll-theme-modernist
