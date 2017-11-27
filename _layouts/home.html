@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include image name="imagendestacada.jpg" caption="imagen" %}
+<img src="{{ '/assets/imagendestacada.jpg' | relative_url }}" alt="Imagen destacada">
 <ul>
   {% for post in site.posts %}
     <li>
