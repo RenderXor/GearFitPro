@@ -40,6 +40,7 @@
       </section>
     </div>
     <footer>
+    <ul>
     {% if site.twitter_username %}
         <li>
             <a href="https://twitter.com/{{ site.twitter_username }}">
@@ -47,6 +48,14 @@
             </a>
         </li>
     {% endif %}
+    {% if site.facebook_username %}
+        <li>
+            <a href="https://www.facebook.com/{{ site.twitter_username }}">
+            <i class="fa fa-facebook"></i> Facebook
+            </a>
+        </li>
+    {% endif %}
+    </ul>
     {% if site.github.is_project_page %}
       <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
     {% endif %}
